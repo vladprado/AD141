@@ -3,7 +3,7 @@ def soma(*numeros):
     media = 0
     for num in numeros:
         total += num
-    
+
     media = total / len(numeros)
     return total, media
 
